@@ -1,0 +1,301 @@
+/*
+    #2980B9
+    #6d6e71
+*/
+
+body, html {
+    height: 100%;
+}
+
+.slider {
+    margin-top: 127px;
+}
+
+.nav-item span {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.nav-item .dropdown-menu {
+    border-radius: 0;
+}
+
+
+.dropdown-menu {
+    border-top: 5px solid #3F80B9;
+    margin-top: -2px;
+    text-transform: uppercase;
+    color: #3F80B9;
+    font-weight: 500;
+    box-shadow: 0 2px 25px 0 rgba(0,0,0,.23);
+}
+.dropdown-menu img {
+    width: 100%;
+}
+.dropdown-menu p {
+    color: #666263;
+    font-weight: 400;
+    font-size: 16px;
+}
+.mega-m-right {
+    background: #f1f1f1;
+}
+
+
+
+
+.intro .bg-img,
+.overview .bg-img {
+    max-width: 100%;
+    transition: transform .2s;
+}
+
+.o-col {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 94%;
+    height: 94%;
+    margin: 3%;
+    background: rgba(255, 255, 255, .3);
+    padding: 6px;
+}
+.c-container {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.c-text h1,
+.c-text h2,
+.c-text h3,
+.c-text h4,
+.c-text h5,
+.c-text h6 {
+    margin: 0;
+    padding: 0;
+    color: #666263;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.o-col:hover .bg-img {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+
+.g-1 h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.g-1 h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.g-2 h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.g-2 h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.g-3 h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.g-3 h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.g-4 h5 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.g-4 h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.intro .has-border {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.intro .has-border h1 {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.caption-ext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 94%;
+    height: 94%;
+    margin: 3%;
+    padding: 6px;
+}
+.c-container-ext {
+    width: 100%;
+    height: 100%;
+}
+
+.gi-1 h3 {
+    font-weight: 700;
+}
+.gi-1 h3 span {
+    font-weight: 300;
+}
+
+
+.gi-2 h3 {
+    font-weight: 300;
+}
+.gi-2 h3 small {
+    font-size: 16px;
+}
+.gi-2 h3 span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.gi-3 h5 {
+    display: inline-block;
+    font-weight: 700;
+}
+.gi-3 h5.big {
+    font-size: 48px;
+}
+.gi-3 h5 span {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.gi-4 h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+}
+.gi-4 h1 span {
+    font-weight: 700;
+}
+
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("images/1401.jpg");
+  
+    /* Set a specific height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.parallax .overlay {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+}
+
+
+.map-img {
+    border: 3px solid #70a42f;
+}
+
+
+.faq h1 {
+    font-weight: 300;
+    font-size: 52px;
+}
+
+.faq h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+
+.footer {
+    margin-top: 200px;
+    background: #3f80b9;
+}
+
+.footer-top {
+    margin-top: -120px;
+}
+
+
+.footer .card {
+    background: #3a77ad;
+    border: none;
+    border-radius: 0;
+}
+
+.footer .card:hover {
+    background: #3f80b9;
+    transition: transform .2s;
+}
+
+.footer-mid h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+}
+
+.footer-mid h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+
+.footer-top h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.footer-top h2 span {
+    font-weight: 500;
+}
+
+
+@media all and (max-width: 992px) {
+    .slider {
+        margin-top: 80px;
+    }
+}
